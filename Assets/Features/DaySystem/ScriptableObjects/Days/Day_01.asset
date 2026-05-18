@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d628b41a37b1bd49913897254359aba, type: 3}
+  m_Name: Day_01
+  m_EditorClassIdentifier: Assembly-CSharp::DayData
+  dayId: day_01
+  dayTitle: "\u0414\u0435\u043D\u044C 1"
+  dayMode: 0
+  kvagelanLines:
+  - "\u041F\u0440\u0438\u0432\u0435\u0442, \u0432\u0438\u0436\u0443 \u0442\u044B
+    \u043D\u043E\u0432\u0435\u043D\u044C\u043A\u0438\u0439, \u0442\u0435\u0431\u0435
+    \u0432 \u0430\u0440\u0445\u0438\u0432 \u043F\u0435\u0440\u0435\u0434\u0430\u043B\u0438
+    1 \u0434\u043E\u0441\u044C\u0435, \u0443\u0437\u043D\u0430\u0439 \u0438\u043C\u044F
+    \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430 \u0438\u0437 \u0434\u043E\u0441\u044C\u0435.
+    \u0421\u0430\u043C\u043E \u0434\u043E\u0441\u044C\u0435 \u043E\u0442\u0434\u0430\u0448\u044C
+    \u043C\u043D\u0435. "
+  - "\u0412\u043E\u0442 \u0434\u0435\u0440\u0436\u0438 \u043A\u0430\u0441\u0441\u0435\u0442\u0443,
+    \u043E\u0442\u0440\u044B\u043B \u0433\u0434\u0435-\u0442\u043E, \u043C\u043E\u0436\u0435\u0442
+    \u043F\u043E\u043C\u043E\u0436\u0435\u0442. \u0422\u0430\u043C \u0432\u0438\u0434\u043E\u0441
+    \u0441 \u043D\u0443\u0436\u043D\u043E\u0439 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0435\u0439."
+  pcTaskHeaderText: "\u0417\u0430\u0434\u0430\u043D\u0438\u0435: \u0438\u0437\u0432\u043B\u0435\u043A\u0438
+    \u0438\u043C\u044F \u0438\u0437 \u0434\u043E\u0441\u044C\u0435 \u0438 \u043E\u0442\u0434\u0430\u0439
+    \u041A\u0432\u0430\u0433\u0435\u043B\u0430\u043D\u0443 "
+  pcExplanationText: 
+  successText: 
+  errorText: 
+  taskPaperSprite: {fileID: 21300000, guid: 8c3fbfe97af249445add23e608b801cf, type: 3}
+  notebookPages:
+  - {fileID: 21300000, guid: dfd77069b8e13874eb4cf09e69d21507, type: 3}
+  notebookStartPageIndex: 0
+  kasetaClip: {fileID: 32900000, guid: 59ae607acf351b6449e30192c966dd3e, type: 3}
+  availableFunctions:
+  - {fileID: 11400000, guid: 79ea517ace25d134bbcc7228c7973302, type: 2}
+  - {fileID: 11400000, guid: d7d137067b2bf9140a3ab5774436b02a, type: 2}
+  - {fileID: 11400000, guid: 56dff1fc50c1ef545a071ef592796401, type: 2}
+  inputFields: []
+  outputFields: []
+  dataset: 
+  usesLoop: 0
+  loopCaption: 
+  stopOnFirstMatch: 1
+  collectAllMatches: 0
