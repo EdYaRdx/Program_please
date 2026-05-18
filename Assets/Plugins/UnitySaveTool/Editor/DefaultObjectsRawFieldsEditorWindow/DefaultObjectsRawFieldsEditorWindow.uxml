@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+  <ui:VisualElement name="Root" class="dos-root">
+
+    <uie:Toolbar name="Toolbar">
+      <uie:ObjectField name="InstallerField" label="Installer" />
+      <uie:ToolbarSpacer />
+      <uie:ToolbarButton name="ReloadButton" text="Reload" />
+      <uie:ToolbarButton name="CreateDefaultButton" text="Create Default (Raw)" />
+      <uie:ToolbarSpacer />
+      <uie:ToolbarSearchField name="SearchField" />
+    </uie:Toolbar>
+
+    <ui:VisualElement name="StatusHost" class="dos-status-host" />
+
+    <ui:TwoPaneSplitView name="Split"
+                         fixed-pane-index="0"
+                         fixed-pane-initial-dimension="440"
+                         orientation="Horizontal"
+                         class="dos-split">
+
+      <ui:VisualElement name="LeftPane" class="dos-pane">
+        <ui:ListView name="ListView" class="dos-list" />
+      </ui:VisualElement>
+
+      <ui:VisualElement name="RightPane" class="dos-pane">
+        <ui:Label name="DetailsHeader" text="No selection" class="dos-header" />
+
+        <ui:ScrollView name="DetailsScroll" mode="Vertical" class="dos-details">
+          <ui:Foldout name="SchemaFoldout" text="Schema" value="true" />
+          <ui:VisualElement name="FieldsRoot" class="dos-fields-root" />
+          <ui:Foldout name="RawJsonFoldout" text="Raw JSON" value="false">
+            <ui:TextField name="RawJsonField" multiline="true" class="dos-rawjson" />
+          </ui:Foldout>
+        </ui:ScrollView>
+
+        <ui:VisualElement name="Footer" class="dos-footer">
+          <ui:Button name="RevertButton" text="Revert" />
+          <ui:Button name="SaveButton" text="Save" />
+          <ui:Button name="DeleteButton" text="Delete" />
+        </ui:VisualElement>
+      </ui:VisualElement>
+
+    </ui:TwoPaneSplitView>
+  </ui:VisualElement>
+</ui:UXML>
