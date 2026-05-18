@@ -144,7 +144,7 @@ Program, please — это образовательная игра в стили
 ![Сцена с детективом](./docs/screens/dialogue.png)
 
 ### Видео обучение
-![Экран фильтрации](./docs/screens/filter-result.png)
+![Экран фильтрации](./docs/screens/video.png)
 
 ### Обучение через “записную книжку”
 ![Теоретический экран](./docs/screens/notebook.png)
